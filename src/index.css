@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Public Sans", sans-serif;
+}
+.body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 5px;
+}
+.color-slab {
+	display: flex;
+	margin: auto;
+	height: 25vh;
+	width: 100%;
+}
+.color-name {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+}
+.color-name-description{
+    color: grey;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+.shades-container {
+	margin: 10px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.shades {
+	width: 18%;
+	margin: 10px;
+	border-radius: 5px;
+	position: relative;
+}
+.name-holder {
+	position: absolute;
+	right: 0px;
+	bottom: -18px;
+	text-transform: uppercase;
+	color: rgb(99, 99, 99);
+}
+.numbering {
+	position: absolute;
+	bottom: -18px;
+}
